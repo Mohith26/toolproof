@@ -1,0 +1,44 @@
+{
+  "machine": "Apple Silicon arm64, single thread",
+  "guardedVsBare": {
+    "toolCalls": 200000,
+    "guardedMs": 3466,
+    "bareMs": 6,
+    "guardedUsPerCall": 17.33,
+    "bareUsPerCall": 0.03,
+    "overheadUsPerCall": 17.3,
+    "guardedCallsPerSecond": 57703,
+    "traceSteps": 400001,
+    "chainVerified": true
+  },
+  "screening": {
+    "documentsScreened": 540000,
+    "elapsedMs": 482,
+    "docsPerSecond": 1120332,
+    "flaggedTotal": 240000
+  },
+  "validation": {
+    "calls": 500000,
+    "accepted": 500000,
+    "elapsedMs": 290,
+    "validationsPerSecond": 1724138
+  },
+  "replay": {
+    "recordedSteps": 10001,
+    "replayMs": 84,
+    "headsMatch": true,
+    "sideEffectsDuringReplay": 0,
+    "status": "completed"
+  },
+  "guardCorpus": {
+    "positives": 12,
+    "negatives": 15,
+    "truePositives": 12,
+    "falseNegatives": 0,
+    "falsePositives": 0,
+    "trueNegatives": 15,
+    "precision": 1,
+    "recall": 1
+  }
+}
+
